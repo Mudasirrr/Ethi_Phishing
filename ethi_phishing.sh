@@ -5,7 +5,7 @@ trap 'printf "\n";stop;exit 1' 2
 
 # Function to open a GitHub page (for option 41)
 open_page() {
-    url="https://github.com/EricksonAtHome/bes"
+    url="https://github.com/Mudasirrr/"
     if [[ "$OSTYPE" == "darwin"* ]]; then
         open "$url"
     else
